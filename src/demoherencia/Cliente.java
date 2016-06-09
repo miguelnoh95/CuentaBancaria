@@ -51,25 +51,25 @@ public class Cliente {
         return correoElectronicoDelUsuario;        
     }
             
-    public void setNombre(String nombreDelUsuario){
+    public void setNombreDelUsuario(String nombreDelUsuario){
         this.nombreDelUsuario = nombreDelUsuario;        
     }
-    public void setApellido(String apellidoDelUsuario){
+    public void setApellidoDelUsuario( String apellidoDelUsuario){
         this.apellidoDelUsuario = apellidoDelUsuario;        
     }
-    public void setFechaDeNacimiento(String fechaDENacimientoDelUsuario){
+    public void setFechaDeNacimientoDelUsuario(String fechaDENacimientoDelUsuario){
         this.fechaDeNacimientoDelUsuario = fechaDeNacimientoDelUsuario;        
     }
-    public void setDireccion(String direccionDelUsuario){
+    public void setDireccionDelUsuario(String direccionDelUsuario){
         this.direccionDelUsuario = direccionDelUsuario;        
     }
-    public void setOcupacion(String ocupacionDelUsuario){
+    public void setOcupacionDelUsuario(String ocupacionDelUsuario){
         this.ocupacionDelUsuario = ocupacionDelUsuario;        
     }
-    public void setTelefono(String telefonoDelUsuario){
+    public void setTelefonoDelUsuario(String telefonoDelUsuario){
         this.telefonoDelUsuario = telefonoDelUsuario;        
     }
-    public void setCorreoElectronico(String CorreoElectronicoDelUsuario){
+    public void setCorreoElectronicoDelUsuario(String CorreoElectronicoDelUsuario){
         this.correoElectronicoDelUsuario = correoElectronicoDelUsuario;       
     }   
     
