@@ -29,7 +29,7 @@ public class CuentaBancaria {
     private void cliente (String Cliente) {
         this.Cliente = Cliente;
      }
-    public boolean depositar (String cantidad) {
+    public boolean depositar (double cantidad) {
         boolean seRealizoDeposito;    
         if (cantidad > 0.0){
             saldo = saldo + cantidad;
